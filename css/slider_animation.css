@@ -1,0 +1,185 @@
+/*****************************************/
+/* Animation for banner slider 1         */
+/* interval in percentage defined which  */
+/* images to load                        */
+/*****************************************/
+
+@keyframes slider-1 {
+    0% {
+        background-image: url('../images/slider/slider_cloud_bottom.png'), url('../images/slider/intelli_training_center_highlights_1.png'),url('../images/slider/slider1_item1.png'),url('../images/slider/slider1_item2.png'), url('../images/slider/slider1_item3.png');
+        background-position: bottom, 100% 800px,-40% 75%,70% -20%, 110% 10%;
+    }
+    12% {
+        background-image: url('../images/slider/slider_cloud_bottom.png'), url('../images/slider/intelli_training_center_highlights_1.png'),url('../images/slider/slider1_item1.png'),url('../images/slider/slider1_item2.png'), url('../images/slider/slider1_item3.png');
+        background-position: bottom, 100% 50%,20% 75%,70% 20%, 96% 10%;
+    }
+
+    100%{
+        background-image: url('../images/slider/slider_cloud_bottom.png'), url('../images/slider/intelli_training_center_highlights_1.png'),url('../images/slider/slider1_item1.png'),url('../images/slider/slider1_item2.png'), url('../images/slider/slider1_item3.png');
+        background-position: bottom, 100% 50%, 20% 75%, 70% 20%, 96% 10%;
+    }
+}
+
+/*****************************************/
+/* Animation for banner slider 2          */
+/* interval in percentage defined which  */
+/* images to load                        */
+/*****************************************/
+
+@keyframes slider-2 {
+    0% {
+        background-image: url('../images/slider/slider_cloud_bottom.png'), url('../images/slider/intelli_training_center_highlights_2.png'),url('../images/slider/slider2_item1.png'),url('../images/slider/slider2_item2.png'), url('../images/slider/slider2_item3.png');
+        background-position: bottom, 90% 600px, 48% -30%,130% 7%, 94% -25%;
+    }
+    12% {
+        background-image: url('../images/slider/slider_cloud_bottom.png'), url('../images/slider/intelli_training_center_highlights_2.png'),url('../images/slider/slider2_item1.png'),url('../images/slider/slider2_item2.png'), url('../images/slider/slider2_item3.png');
+        background-position: bottom, 90%  50%,48% 0%,98% 7%, 94% 25%;
+    }
+    100%{
+        background-image: url('../images/slider/slider_cloud_bottom.png'), url('../images/slider/intelli_training_center_highlights_2.png'),url('../images/slider/slider2_item1.png'),url('../images/slider/slider2_item2.png'), url('../images/slider/slider2_item3.png');
+        background-position: bottom, 90% 50%, 48% 0%, 98% 7%, 94% 25%;
+    }
+}
+
+/*****************************************/
+/* Animation for banner slider 3          */
+/* interval in percentage defined which  */
+/* images to load                        */
+/*****************************************/
+
+@keyframes slider-3 {
+    0% {
+        background-image: url('../images/slider/slider_cloud_bottom.png'), url('../images/slider/intelli_training_center_highlights_3.png'), url('../images/slider/slider3_item1.png'), url('../images/slider/slider3_item2.png'), url('../images/slider/slider3_item3.png');
+        background-position: bottom, 110% 600px, 95% -180%, -30% 60%, 55% -10%;
+    }
+    12% {
+        background-image: url('../images/slider/slider_cloud_bottom.png'), url('../images/slider/intelli_training_center_highlights_3.png'), url('../images/slider/slider3_item1.png'), url('../images/slider/slider3_item2.png'), url('../images/slider/slider3_item3.png');
+        background-position: bottom, 110% 50%, 95% -5%, 32% 60%, 55% 5%;
+    }
+    100%{
+        background-image: url('../images/slider/slider_cloud_bottom.png'), url('../images/slider/intelli_training_center_highlights_3.png'), url('../images/slider/slider3_item1.png'), url('../images/slider/slider3_item2.png'), url('../images/slider/slider3_item3.png');
+        background-position: bottom, 110% 50%, 95% -5%, 32% 60%, 55% 5%;
+    }
+}
+
+/*********************************************************/
+/* Animation for banner slider for tablet/ipads          */
+/*********************************************************/
+
+@media (max-width: 992px) {
+    @keyframes slider-1 {
+        0% {
+            background-image: url('../images/slider/slider_cloud_bottom.png'), url('../images/slider/intelli_training_center_highlights_1.png');
+            background-position: bottom,0% 100%;
+        }
+        50%{
+            background-image: url('../images/slider/slider_cloud_bottom.png'),url('../images/slider/intelli_training_center_highlights_1.png');
+            background-position: bottom,35% 100%;
+        }
+        100%{
+            background-image: url('../images/slider/slider_cloud_bottom.png'),url('../images/slider/intelli_training_center_highlights_1.png');
+            background-position: bottom,70% 100%;
+        }
+    }
+
+    @keyframes slider-2 {
+        0% {
+            background-image: url('../images/slider/slider_cloud_bottom.png'), url('../images/slider/intelli_training_center_highlights_2.png');
+            background-position: bottom, 70% 100%;
+        }
+        50%{
+            background-image: url('../images/slider/slider_cloud_bottom.png'), url('../images/slider/intelli_training_center_highlights_2.png');
+            background-position: bottom, 35% 100%;
+        }
+        100%{
+            background-image: url('../images/slider/slider_cloud_bottom.png'), url('../images/slider/intelli_training_center_highlights_2.png');
+            background-position: bottom,0% 100%;
+        }
+    }
+
+    @keyframes slider-3 {
+        0% {
+            background-image: url('../images/slider/slider_cloud_bottom.png'),url('../images/slider/intelli_training_center_highlights_3.png');
+            background-position: bottom, 0% 100%;
+        }
+        50%{
+            background-image: url('../images/slider/slider_cloud_bottom.png'),url('../images/slider/intelli_training_center_highlights_3.png');
+            background-position: bottom, 35% 100%;
+        }
+        100%{
+            background-image: url('../images/slider/slider_cloud_bottom.png'),url('../images/slider/intelli_training_center_highlights_3.png');
+            background-position: bottom,70% 100%;
+        }
+    }
+}
+
+/****************************************************/
+/* Animation for banner slider for phones           */
+/***************************************************/
+
+@media (max-width: 576px) {
+    @keyframes slider-1 {
+        0% {
+            background-image: url('../images/slider/slider_cloud_bottom.png'), url('../images/slider/intelli_training_center_highlights_1.png');
+            background-position: bottom, 45% 150%;
+        }
+
+        100%{
+            background-image: url('../images/slider/slider_cloud_bottom.png'),url('../images/slider/intelli_training_center_highlights_1.png');
+            background-position: bottom, 45% 100%;
+        }
+    }
+    @keyframes slider-2 {
+        0% {
+            background-image: url('../images/slider/slider_cloud_bottom.png'),url('../images/slider/intelli_training_center_highlights_2.png');
+            background-position: bottom, 45% 150%;
+        }
+        100%{
+            background-image: url('../images/slider/slider_cloud_bottom.png'),url('../images/slider/intelli_training_center_highlights_2.png');
+            background-position: bottom, 45% 100%;
+        }
+    }
+    @keyframes slider-3 {
+        0% {
+            background-image: url('../images/slider/slider_cloud_bottom.png'), url('../images/slider/intelli_training_center_highlights_3.png');
+            background-position: bottom, 45% 150%;
+        }
+        100%{
+            background-image: url('../images/slider/slider_cloud_bottom.png'),url('../images/slider/intelli_training_center_highlights_3.png');
+            background-position: bottom, 45% 100%;
+        }
+    }
+}
+
+/*****************************************/
+/* Animation for slider text             */
+/*****************************************/
+
+@keyframes slider-text {
+    0%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+@media (max-width: 992px) {
+    @keyframes slider-text {
+        0%{
+            transform: translateY(50px);
+        }
+        100%{
+            transform: translateY(0px);
+        }
+    }
+}
+@media (max-width: 576px) {
+    @keyframes slider-text {
+        0%{
+            transform: translateY(20px);
+        }
+        100%{
+            transform: translateY(0px);
+        }
+    }
+}
